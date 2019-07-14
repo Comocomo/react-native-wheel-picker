@@ -10,3 +10,4 @@ import {
 import WheelCurvedPicker from './WheelCurvedPicker'
 
 module.exports = (Platform.OS === 'ios' ? PickerIOS : WheelCurvedPicker)
+
