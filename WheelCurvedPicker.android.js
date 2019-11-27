@@ -47,7 +47,7 @@ class WheelCurvedPicker extends React.Component {
 
 		selectedIndex: PropTypes.number,
 
-		selectedLineColor: ColorPropType,
+		selectedLineColor: PropTypes.any,
 	}
 
 	constructor(props){
